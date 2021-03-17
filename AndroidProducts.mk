@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosip_ocean.mk
+    $(LOCAL_DIR)/arrow_ocean.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosip_ocean-eng \
-    aosip_ocean-user \
-    aosip_ocean-userdebug
+    arrow_ocean-eng \
+    arrow_ocean-user \
+    arrow_ocean-userdebug

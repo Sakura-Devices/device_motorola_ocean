@@ -29,6 +29,9 @@ PRODUCT_VENDOR_PROPERTY_BLACKLIST := \
     ro.telephony.default_network \
     ro.vendor.telephony.default_network
 
+# ArrowOS Maintainer
+DEVICE_MAINTAINER := Deivid Ignacio
+
 PRODUCT_BRAND := motorola
 PRODUCT_DEVICE := ocean
 PRODUCT_MANUFACTURER := motorola

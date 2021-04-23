@@ -34,6 +34,11 @@ on init && property:ro.boot.hardware.sku=XT1955-7
 on boot && property:ro.boot.product.hardware.sku=nfc
     start nfc_hal_service
 
+# Google Fi
+on property:ro.carrier=fi
+    setprop ro.vendor.radio.ims_version TA3.0_IR92_V10.0
+    setprop persist.vendor.radio.user_agent_supported 1
+
 on property:ro.boot.hardware.sku=XT1955-1
     setprop ro.radio.imei.sv 33
     setprop ro.telephony.default_network "10,10"

@@ -19,23 +19,23 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
-# Inherit some common ArrowOS stuff
-$(call inherit-product, vendor/arrow/config/common.mk)
+# Inherit some common LineageOS stuff
+$(call inherit-product, vendor/lineage/config/common.mk)
 
 # Inherit from ocean device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
+
+# Inherit from rom config
+$(call inherit-product, $(LOCAL_PATH)/config.mk)
 
 PRODUCT_VENDOR_PROPERTY_BLACKLIST := \
     ro.telephony.default_network \
     ro.vendor.telephony.default_network
 
-# ArrowOS Maintainer
-DEVICE_MAINTAINER := Deivid Ignacio
-
 PRODUCT_BRAND := motorola
 PRODUCT_DEVICE := ocean
 PRODUCT_MANUFACTURER := motorola
-PRODUCT_NAME := arrow_ocean
+PRODUCT_NAME := lineage_ocean
 PRODUCT_MODEL := moto g(7) power
 
 PRODUCT_BUILD_PROP_OVERRIDES += \

@@ -1,6 +1,6 @@
 # Sakura stuff you know :D
 SAKURA_MAINTAINER := hisoka_simp
-SAKURA_OFFICIAL := false
+SAKURA_OFFICIAL := true
 
 # Other Rom specific stuff
 TARGET_FACE_UNLOCK_SUPPORTED := true

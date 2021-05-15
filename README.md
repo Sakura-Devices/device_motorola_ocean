@@ -23,6 +23,10 @@ Front Camera | 8 MP 1.12µm, HDR
 
 `git clone https://gitlab.com/NemesisDevelopers/moto-camera/motorola_camera2_overlay.git -b ten packages/apps/MotCamera2-overlay`
 
+`git clone https://gitlab.com/NemesisDevelopers/motorola/motorola_timeweather.git -b eleven packages/apps/TimeWeather`
+
+`git clone https://gitlab.com/NemesisDevelopers/motorola/motorola_livewallpaper3.git -b eleven packages/apps/MotoLiveWallpaper3`
+
 `git clone https://gitlab.com/NemesisDevelopers/motorola/motorola_motosignatureapp.git -b eleven packages/apps/MotoSignatureApp`
 
 ![Moto G7 Power](https://fdn2.gsmarena.com/vv/pics/motorola/motorola-moto-g7-power-1.jpg "Moto G7 Power")

@@ -25,9 +25,6 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from ocean device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-# Inherit from rom config
-$(call inherit-product, $(LOCAL_PATH)/config.mk)
-
 PRODUCT_VENDOR_PROPERTY_BLACKLIST := \
     ro.telephony.default_network \
     ro.vendor.telephony.default_network
@@ -44,3 +41,12 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := motorola/ocean/ocean:9/PPO29.114-134/fee207:user/release-keys
+
+# Sakura stuff you know :D
+SAKURA_MAINTAINER := hisoka_simp
+SAKURA_OFFICIAL := true
+SAKURA_BUILD_TYPE := basicgapps
+
+# Other Rom specific stuff
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_USES_BLUR := true
